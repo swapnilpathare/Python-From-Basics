@@ -3,17 +3,17 @@
 ## For Loop
 #example 1
 # How to use 'For' Loop in python to print statement 3 times
-for i in range ( 3 ):
-  print ( "Hello, World...!" )
+for i in range ( 3 ):                  #for loop with range 3 
+  print ( "Hello, World...!" )         #printing the word in loop
 # output- Hello, World...!                    
 #         Hello, World...!
 #         Hello, World...!
 
 #example 2
-for i in (0, 1, 2, 3, 4, 5):
-  if i == 2 or i == 4:
-    continue
-  print(i)
+for i in (0, 1, 2, 3, 4, 5):           #for loop with range
+  if i == 2 or i == 4:                 #if condition to check if true or not
+    continue                           #continue keyword to continue loop
+  print(i)                             #print statement to print values
 # output- 0
 #         1
 #         3
