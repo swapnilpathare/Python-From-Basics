@@ -1,6 +1,4 @@
-# To print any word/statement in python
-print('Hello, World...!')
-# output-Hello, World...!
+#Loops with example
 
 # How to use 'For' Loop in python to print statement 3 times
 for i in range ( 3 ):
