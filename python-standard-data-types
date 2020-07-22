@@ -49,7 +49,7 @@ print (list + tinylist)
 #Python Dictonary
 dict = {'name': 'abcd','code':8282, 'dept': 'comp'}
 
-print(dict)
+print(dict) 
 print(dict.keys())
 print(dict.values())
 
