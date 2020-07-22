@@ -1,0 +1,59 @@
+#Python Strings
+str='Swapnil Pathare'
+
+print (str)
+print (str[0])
+print (str[2:5])
+print (str[2:])
+print (str * 2)
+print (str[0:7] + ' Subhash ' + str[8:])
+print ('Mr. '+str)
+
+#output
+#Swapnil Pathare
+#S
+#apn
+#apnil Pathare
+#Swapnil PathareSwapnil Pathare
+#Swapnil Subhash Pathare
+#Mr. Swapnil Pathare
+
+
+
+#Python Lists
+#lists and tupples are same the only difference is tuples are read only lists.
+
+list=['abcd',786,03.03,'xyz',10.01]
+tinylist=[123,'swap']
+
+print (list)
+print (tinylist)
+print (list[0])
+print (list[1:4])
+print (list[2:])
+print (list * 2)
+print (list + tinylist)
+
+#output
+#['abcd', 786, 3.03, 'xyz', 10.01]
+#[123, 'swap']
+#abcd
+#[786, 3.03, 'xyz']
+#[3.03, 'xyz', 10.01]
+#['abcd', 786, 3.03, 'xyz', 10.01, 'abcd', 786, 3.03, 'xyz', 10.01]
+#['abcd', 786, 3.03, 'xyz', 10.01, 123, 'swap']
+#Process finished with exit code 0
+
+
+
+#Python Dictonary
+dict = {'name': 'abcd','code':8282, 'dept': 'comp'}
+
+print(dict)
+print(dict.keys())
+print(dict.values())
+
+#output
+#{'name': 'abcd', 'code': 8282, 'dept': 'comp'}
+#dict_keys(['name', 'code', 'dept'])
+#dict_values(['abcd', 8282, 'comp'])
